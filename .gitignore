@@ -1,0 +1,6 @@
+#skip these visual studio files#
+################################
+*.ncb
+*.suo
+*.old
+*.XML
