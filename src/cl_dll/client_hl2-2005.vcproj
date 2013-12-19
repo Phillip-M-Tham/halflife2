@@ -31,8 +31,8 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin&quot;&#x0D;&#x0A;"
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll"
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin&quot;&#x0D;&#x0A;"
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -143,8 +143,8 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin&quot;&#x0D;&#x0A;if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot;&#x0D;&#x0A;"
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb"
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot;&#x0D;&#x0A;copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin&quot;&#x0D;&#x0A;if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot;&#x0D;&#x0A;"
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

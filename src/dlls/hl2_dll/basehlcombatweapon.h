@@ -59,7 +59,18 @@ enum
 	FIREMODE_SEMI,
 	FIREMODE_3RNDBURST,
 };
-
+//half life 2 weapon ak-47 pmt9
+enum stances
+{
+  E_STAND = 0,
+  E_DUCK = 1,
+  E_MOVE = 2,
+  E_RUN = 3,
+  E_INJURED = 4,
+  E_JUMP = 5,
+  E_DYING = 6,
+};
+//end
 //=========================================================
 //	>> CHLSelectFireMachineGun
 //=========================================================

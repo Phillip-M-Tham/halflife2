@@ -42,12 +42,12 @@
 				CompileAs="0"/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Publishing to target directory (c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\)..."
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;
-copy &quot;$(TargetPath)&quot; &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;
-if exist &quot;$(TargetDir)&quot;game_shader_dx8.map copy &quot;$(TargetDir)&quot;game_shader_dx8.map &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.map&quot;
+				Description="Publishing to target directory (c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\)..."
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;
+copy &quot;$(TargetPath)&quot; &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;
+if exist &quot;$(TargetDir)&quot;game_shader_dx8.map copy &quot;$(TargetDir)&quot;game_shader_dx8.map &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.map&quot;
 "
-				Outputs="&quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;"/>
+				Outputs="&quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;"/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="version.lib winmm.lib"
@@ -124,12 +124,12 @@ if exist &quot;$(TargetDir)&quot;game_shader_dx8.map copy &quot;$(TargetDir)&quo
 				CompileAs="0"/>
 			<Tool
 				Name="VCCustomBuildTool"
-				Description="Publishing to target directory (c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\)..."
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;
-copy &quot;$(TargetPath)&quot; &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;
-if exist &quot;$(TargetDir)&quot;game_shader_dx8.map copy &quot;$(TargetDir)&quot;game_shader_dx8.map &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.map&quot;
+				Description="Publishing to target directory (c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\)..."
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;
+copy &quot;$(TargetPath)&quot; &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;
+if exist &quot;$(TargetDir)&quot;game_shader_dx8.map copy &quot;$(TargetDir)&quot;game_shader_dx8.map &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.map&quot;
 "
-				Outputs="&quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\game_shader_dx8.dll&quot;"/>
+				Outputs="&quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\game_shader_dx8.dll&quot;"/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="version.lib winmm.lib"

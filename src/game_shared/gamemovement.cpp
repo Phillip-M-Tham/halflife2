@@ -1969,11 +1969,11 @@ bool CGameMovement::CheckJumpButton( void )
 	}
 
 	// No more effect
- 	if (player->GetGroundEntity() == NULL)
+ 	/*if (player->GetGroundEntity() == NULL)
 	{
 		mv->m_nOldButtons |= IN_JUMP;
 		return false;		// in air, so no effect
-	}
+	}pmt9*/
 
 	// Don't allow jumping when the player is in a stasis field.
 #ifndef HL2_EPISODIC
@@ -2097,7 +2097,7 @@ bool CGameMovement::CheckJumpButton( void )
 
 	// Flag that we jumped.
 	mv->m_nOldButtons |= IN_JUMP;	// don't jump again until released
-	return true;
+	return true; //pmt9
 }
 
 

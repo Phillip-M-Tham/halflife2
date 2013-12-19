@@ -43,10 +43,10 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot;
-copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin&quot;
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot;
+copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin&quot;
 "
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll"/>
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll"/>
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"
@@ -133,12 +133,12 @@ copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steam
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll&quot;
-copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin&quot;
-if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot;
-if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb&quot;
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll&quot;
+copy &quot;$(TargetDir)&quot;client.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin&quot;
+if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot;
+if exist &quot;$(TargetDir)&quot;client.pdb copy &quot;$(TargetDir)&quot;client.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb&quot;
 "
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.dll;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\client.pdb"/>
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.dll;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\client.pdb"/>
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"

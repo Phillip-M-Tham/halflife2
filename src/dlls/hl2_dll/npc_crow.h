@@ -13,6 +13,8 @@
 #define BIRDTYPE_CROW 1
 #define BIRDTYPE_PIGEON 2
 #define BIRDTYPE_SEAGULL 3
+//add seagull 2
+#define BIRDTYPE_SEAGULL2 4
 
 //
 // Spawnflags.
@@ -224,7 +226,37 @@ public:
 		EmitSound( "NPC_Seagull.Idle" );
 	}
 };
+//SEAGULL 2 stuff pmt9
+class CNPC_SEAGULL2 : public CNPC_Crow
+{
+	DECLARE_CLASS( CNPC_SEAGULL2, CNPC_Crow );
 
+public:
+	
+	void Spawn( void )
+	{
+		SetModelName( AllocPooledString("models/seagull.mdl") );
+		BaseClass::Spawn();
+
+		m_iBirdType = BIRDTYPE_SEAGULL2;
+	}
+
+	void PainSound( const CTakeDamageInfo &info )
+	{
+		EmitSound( "NPC_Seagull.Pain" );
+	}
+
+	void DeathSound( const CTakeDamageInfo &info )
+	{
+		EmitSound( "NPC_Seagull.Pain" );
+	}
+
+	void IdleSound( void )
+	{
+		EmitSound( "NPC_Seagull.Idle" );
+	}
+};
+//END pmt9
 //-----------------------------------------------------------------------------
 // Purpose: Pigeon. Crow with a different model.
 //-----------------------------------------------------------------------------

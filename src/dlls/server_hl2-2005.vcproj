@@ -30,8 +30,8 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot;&#x0D;&#x0A;"
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll"
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot;&#x0D;&#x0A;"
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -136,8 +136,8 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying to destination folder"
-				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll&quot;&#x0D;&#x0A;if exist c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.pdb attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.pdb copy &quot;$(TargetDir)&quot;server.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin&quot;&#x0D;&#x0A;"
-				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.dll;c:\program files (x86)\steam\steamapps\SourceMods\hl2mod\bin\server.pdb"
+				CommandLine="if exist &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot; attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.dll copy &quot;$(TargetDir)&quot;server.dll &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll&quot;&#x0D;&#x0A;if exist c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.pdb attrib -r &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.pdb&quot;&#x0D;&#x0A;if exist &quot;$(TargetDir)&quot;server.pdb copy &quot;$(TargetDir)&quot;server.pdb &quot;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin&quot;&#x0D;&#x0A;"
+				Outputs="c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.dll;c:\program files (x86)\steam\steamapps\SourceMods\myfirstmodvb2008\bin\server.pdb"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -4333,6 +4333,10 @@
 				</File>
 				<File
 					RelativePath="hl2_dll\weapon_rpg.h"
+					>
+				</File>
+				<File
+					RelativePath=".\weapon_seagull.cpp"
 					>
 				</File>
 				<File

@@ -33,9 +33,9 @@
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
-//Phil Tham
-#define	RPG_SPEED	400 //1500
-//Phil Tham
+
+#define	RPG_SPEED	20
+
 static ConVar sk_apc_missile_damage("sk_apc_missile_damage", "15");
 
 #define APC_MISSILE_DAMAGE	sk_apc_missile_damage.GetFloat()
@@ -43,7 +43,7 @@ static ConVar sk_apc_missile_damage("sk_apc_missile_damage", "15");
 const char *g_pLaserDotThink = "LaserThinkContext";
 
 //-----------------------------------------------------------------------------
-// Laser Dotha
+// Laser Dot
 //-----------------------------------------------------------------------------
 class CLaserDot : public CSprite 
 {
